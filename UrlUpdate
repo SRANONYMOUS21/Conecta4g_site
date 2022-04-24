@@ -1,12 +1,11 @@
-
 {
-  "Version": "1.0.3",
+  "Version": "1.0.6",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
-  "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
+  "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
   "EmailFeedback": "",
   "UrlContato": "http://179.96.3.212/",
-  "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/termos.html",
+  "UrlTermos": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/termos.html",
   "CheckUser": "true",
   "Udp": [
     {
@@ -59,8 +58,8 @@
       "Name": "SERVIDOR 2 | PLUS",
       "TYPE": "premium ",
       "FLAG": "br.png",
-      "ServerIP": "sp.paulovpsrj.xyz",
-      "CheckUser": "http://144.22.137.240:5454/checkUser",
+      "ServerIP": "rg.paulovpsrj.xyz",
+      "CheckUser": "http://144.22.252.16:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -196,9 +195,9 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET ws://carrorioclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "carrorioclaro.com.br",
-      "TlsIP": "carrorioclaro.com.br",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -206,9 +205,9 @@
     {
       "Name": "CLARO TLS 02",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
