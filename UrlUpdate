@@ -1,5 +1,5 @@
 {
-"Version": "1.1.4",
+"Version": "1.1.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -201,12 +201,12 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-    {
+{
       "Name": "TIM TLS 01",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
+      "FLAG": "claro",
+      "Payload": "GET ws://cloud.mail.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "cloud.mail.c6bank.com.br",
+      "TlsIP": "cloud.mail.c6bank.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
