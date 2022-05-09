@@ -1,5 +1,5 @@
 {
-"Version": "1.1.9",
+"Version": "1.2.0",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -117,28 +117,8 @@
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Proxy"
-    },
- {
-      "Name": "VIVO PROXY 02",
-      "FLAG": "vivo",
-      "Payload": "BDELET  ssl://denuncia.olx.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
-      "SNI": "denuncia.olx.com.br",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Proxy"
-    },
-     {
-      "Name": "VIVO PROXY 03",
-      "FLAG": "tim",
-      "Payload": "GET wss://planos.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
   {
