@@ -1,5 +1,5 @@
 {
-"Version": "1.2.3",
+"Version": "1.2.4",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -114,9 +114,9 @@
     {
       "Name": "VIVO PROXY 01",
       "FLAG": "vivo",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "SCONNECT ssl://portaldegovernancadocumental.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
+      "SNI": "portaldegovernancadocumental.vivo.com.br",
+      "TlsIP": "portaldegovernancadocumental.vivo.com.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -124,19 +124,19 @@
       {
       "Name": "VIVO PROXY 02",
       "FLAG": "vivo",
-      "Payload": "GET ws://denuncia.olx.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "denuncia.olx.com.br",
-      "TlsIP": "denuncia.olx.com.br",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "SCONNECT ssl://protecao.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
+      "SNI": "protecao.vivo.com.br",
+      "TlsIP": "protecao.vivo.com.br",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
      {
       "Name": "VIVO PROXY 03",
       "FLAG": "vivo",
-      "Payload": "GET ws://planos.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "planos.vivo.com.br",
-      "TlsIP": "planos.vivo.com.br",
+      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "gedoc.vivo.com.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -144,9 +144,9 @@
     {
       "Name": "VIVO PROXY 04",
       "FLAG": "vivo",
-      "Payload": "GET ws://carrinho-pos-familia.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "carrinho-pos-familia.vivo.com.br",
+      "Payload": "HEAD ssl://direitoadevolucao.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz [crlf]Upgrade: ws[crlf]GET http://[rotate=direitoadevolucao.vivo.com.br;cdn.hideserver.xyz;vivoid.vivo.com.br][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
+      "SNI": "direitoadevolucao.vivo.com.br",
+      "TlsIP": "direitoadevolucao.vivo.com.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
