@@ -1,5 +1,5 @@
 {
-"Version": "1.2.2",
+"Version": "1.2.3",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -147,6 +147,16 @@
       "Payload": "GET ws://carrinho-pos-familia.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
       "SNI": "carrinho-pos-familia.vivo.com.br",
       "TlsIP": "carrinho-pos-familia.vivo.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+      {
+      "Name": "VIVO MINAS GERAIS 01",
+      "FLAG": "vivo",
+      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "gedoc.vivo.com.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
