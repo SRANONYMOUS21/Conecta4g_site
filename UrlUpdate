@@ -1,5 +1,5 @@
 {
-"Version": "1.2.0",
+"Version": "1.2.2",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -117,6 +117,46 @@
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+      {
+      "Name": "VIVO PROXY 02",
+      "FLAG": "vivo",
+      "Payload": "GET ws://denuncia.olx.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "denuncia.olx.com.br",
+      "TlsIP": "denuncia.olx.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+     {
+      "Name": "VIVO PROXY 03",
+      "FLAG": "vivo",
+      "Payload": "GET ws://planos.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "planos.vivo.com.br",
+      "TlsIP": "planos.vivo.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+    {
+      "Name": "VIVO PROXY 04",
+      "FLAG": "vivo",
+      "Payload": "GET ws://carrinho-pos-familia.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "carrinho-pos-familia.vivo.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+      {
+      "Name": "VIVO ROTATE 01",
+      "FLAG": "vivo",
+      "Payload": "SCONNECT ssl://victorosx.3cyber.com HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
+      "SNI": "victorosx.3cyber.com",
+      "TlsIP": "victorosx.3cyber.com",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
