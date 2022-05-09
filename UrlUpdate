@@ -1,5 +1,5 @@
 {
-"Version": "1.2.4",
+"Version": "1.2.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -127,29 +127,19 @@
       "Payload": "SCONNECT ssl://protecao.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
       "SNI": "protecao.vivo.com.br",
       "TlsIP": "protecao.vivo.com.br",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-     {
-      "Name": "VIVO PROXY 03",
-      "FLAG": "vivo",
-      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "gedoc.vivo.com.br",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
-      },
+    },
     {
-      "Name": "VIVO PROXY 04",
+      "Name": "VIVO ROTATE 01",
       "FLAG": "vivo",
       "Payload": "HEAD ssl://direitoadevolucao.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz [crlf]Upgrade: ws[crlf]GET http://[rotate=direitoadevolucao.vivo.com.br;cdn.hideserver.xyz;vivoid.vivo.com.br][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
       "SNI": "direitoadevolucao.vivo.com.br",
       "TlsIP": "direitoadevolucao.vivo.com.br",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
       {
       "Name": "VIVO MINAS GERAIS 01",
@@ -157,16 +147,6 @@
       "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "gedoc.vivo.com.br",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-      {
-      "Name": "VIVO ROTATE 01",
-      "FLAG": "vivo",
-      "Payload": "SCONNECT ssl://victorosx.3cyber.com HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: ws[crlf]GET http://[rotate=www.youtube.com;www.google.com;www.tiktok.com][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
-      "SNI": "victorosx.3cyber.com",
-      "TlsIP": "victorosx.3cyber.com",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
