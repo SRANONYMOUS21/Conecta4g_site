@@ -1,5 +1,5 @@
 {
-"Version": "1.3.3",
+"Version": "1.3.4",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -234,6 +234,16 @@
       "Name": "TIM TLS 04",
       "FLAG": "tim",
       "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "TIM TLS 05",
+      "FLAG": "tim",
+      "Payload": "HEAD ssl://emartim.com.br HTTP/1.1[crlf]Host: rb.paulovpsrj.xyz [crlf]Upgrade: ws[crlf]GET http://[rotate=emartim.com.br;cdn.hideserver.xyz;vivoid.vivo.com.br][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
       "SNI": "emartim.com.br",
       "TlsIP": "emartim.com.br",
       "ProxyIP": "",
