@@ -1,5 +1,5 @@
 {
-"Version": "1.3.4",
+"Version": "1.3.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -164,12 +164,12 @@
      {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://blog-staging.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.19.184.14",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://www.parrodovalentim.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+     "SNI": "www.parrodovalentim.com.br",
+      "TlsIP": "www.parrodovalentim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
  {
       "Name": "TIM PROXY 02",
@@ -199,16 +199,6 @@
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-       {
-      "Name": "TIM ROTATE 01",
-      "FLAG": "tim",
-      "Payload": "HEAD ssl://emartim.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz [crlf]Upgrade: ws[crlf]GET http://[rotate=direitoadevolucao.vivo.com.br;cdn.hideserver.xyz;vivoid.vivo.com.br][protocol][crlf]Host: [rotate=www.youtube.com;www.google.com;www.tiktok.com][crlf][crlf]",
-      "SNI": "emartim.com.br",
-      "TlsIP": "emartim.com.br",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "",
       "Info": "Proxy"
     },
 {
@@ -339,6 +329,25 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
+    "Name": "OI SSL 2",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI DIRECT",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
   ]
 }
