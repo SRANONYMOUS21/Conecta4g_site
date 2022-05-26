@@ -1,5 +1,5 @@
 {
-"Version": "1.4.0",
+"Version": "1.4.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/anonymous/UrlSms",
@@ -152,6 +152,16 @@
       "Info": "Tlsws"
     },
      {
+      "Name": "VIVO GAME",
+      "FLAG": "vivo",
+      "Payload": "GET ws://backoffice-equipamentos01.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "backoffice-equipamentos01.vivo.com.br",
+      "TlsIP": "backoffice-equipamentos01.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+     {
       "Name": "VIVO TLS 01",
       "FLAG": "vivo",
       "Payload": "GET ws://beneficios.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
@@ -172,11 +182,31 @@
       "Info": "Tlsws"
     },
      {
-      "Name": "TIM PROXY 01",
+      "Name": "TIM NOVO 01",
       "FLAG": "tim",
       "Payload": "GET ws://image.mail.c6bank.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
      "SNI": "image.mail.c6bank.com.br",
       "TlsIP": "image.mail.c6bank.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+      {
+      "Name": "TIM NOVO 02",
+      "FLAG": "tim",
+      "Payload": "GET ws://status.emartim.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+     "SNI": "status.emartim.com.br",
+      "TlsIP": "status.emartim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM GAME",
+      "FLAG": "tim",
+      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "bobcontents.bennuapp.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -232,6 +262,16 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    {
+      "Name": "🇧🇷CLARO NOVA🚀",
+   "FLAG": "claro",
+   "Payload": "GET wss://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+   "SNI": "content.akross.com.br",
+   "TlsIP": "content.akross.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "",
+   "Info": "Tlsws"
+ },
   {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
