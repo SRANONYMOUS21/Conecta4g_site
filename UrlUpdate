@@ -1,5 +1,5 @@
 {
-"Version": "1.4.4",
+"Version": "1.4.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -49,50 +49,6 @@
       "FLAG": "br.png",
       "ServerIP": "lm.paulovpsrj.xyz",
       "CheckUser": "http://209.14.2.16:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR 2 | PLUS",
-      "TYPE": "premium ",
-      "FLAG": "br.png",
-      "ServerIP": "sp.paulovpsrj.xyz",
-      "CheckUser": "http://144.22.137.240:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-	{
-      "Name": "SERVIDOR 3 | PLUS",
-      "TYPE": "premium ",
-      "FLAG": "br.png",
-      "ServerIP": "am.paulovpsrj.xyz",
-      "CheckUser": "http://168.138.130.255:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR 4 | PLUS",
-      "TYPE": "premium ",
-      "FLAG": "br.png",
-      "ServerIP": "rb.paulovpsrj.xyz",
-      "CheckUser": "http://144.22.152.151:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR 5 | PLUS",
-      "TYPE": "premium ",
-      "FLAG": "br.png",
-      "ServerIP": "sp.paulovpsrj.xyz",
-      "CheckUser": "http://144.22.137.240:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -283,25 +239,15 @@
    "Info": "Tlsws"
  },
   {
-      "Name": "🛩️CLARO VELOZ 02🚀",
-   "FLAG": "claro",
-   "Payload": "GET wss://boom4u.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-   "SNI": "boom4u.com.br",
-   "TlsIP": "boom4u.com.br",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
- },
- {
-      "Name": "🛩️CLARO VELOZ 03🚀",
-   "FLAG": "claro",
-   "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-   "SNI": "boom4u.com.br",
-   "TlsIP": "boom4u.com.br",
-   "ProxyIP": "172.67.201.105",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
- },
+      "Name": "✔️CLARO  NOVO🌎",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: seudominio[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "172.67.201.105",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
     {
       "Name": "😶‍🌫️CLARO SSL 03😶‍🌫️",
       "FLAG": "claro",
