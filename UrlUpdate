@@ -1,5 +1,5 @@
 {
-"Version": "1.5.1",
+"Version": "1.5.0",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -44,7 +44,7 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR 1  | VIP",
+      "Name": "SERVIDOR 1  | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "lm.paulovpsrj.xyz",
@@ -55,7 +55,7 @@
       "PASS": ""
     },
       {
-      "Name": "SERVIDOR 2 | VIP",
+      "Name": "SERVIDOR 2 | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vip.paulovpsrj.xyz",
@@ -66,7 +66,7 @@
       "PASS": ""
     },
 	{
-      "Name": "SUPORTE | VIP",
+      "Name": "SUPORTE | PLUS",
       "TYPE": "free",
       "FLAG": "br.png",
       "ServerIP": "rg.paulovpsrj.xyz",
