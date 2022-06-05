@@ -44,7 +44,7 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR  | VIP1",
+      "Name": "SERVIDOR 1  | VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "lm.paulovpsrj.xyz",
@@ -55,7 +55,7 @@
       "PASS": ""
     },
       {
-      "Name": "SERVIDOR  | VIP2",
+      "Name": "SERVIDOR 2 | VIP",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vip.paulovpsrj.xyz",
@@ -67,7 +67,7 @@
     },
 	{
       "Name": "SUPORTE | VIP",
-      "TYPE": "suporte",
+      "TYPE": "free",
       "FLAG": "br.png",
       "ServerIP": "rg.paulovpsrj.xyz",
       "CheckUser": "",
