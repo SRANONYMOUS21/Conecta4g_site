@@ -1,5 +1,5 @@
 {
-"Version": "1.4.8",
+"Version": "2.0.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -261,7 +261,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "❤️CLARO SSL 03❤️",
+      "Name": "❤️CLARO SSL 01❤️",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "dns.web.whatsapp.com",
@@ -271,7 +271,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "❤️CLARO SSL 04❤️",
+      "Name": "❤️CLARO SSL 02❤️",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
@@ -281,7 +281,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "❤️CLARO SSL 05❤️",
+      "Name": "❤️CLARO SSL 03❤️",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "web.whatsapp.com",
@@ -291,7 +291,7 @@
       "Info": "Ssl"
     },
     {
-      "Name": "❤️CLARO SSL 06❤️",
+      "Name": "❤️CLARO SSL 04❤️",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
