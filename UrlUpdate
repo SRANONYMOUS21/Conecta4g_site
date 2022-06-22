@@ -1,5 +1,5 @@
 {
-"Version": "2.0.8",
+"Version": "2.0.9",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -208,82 +208,11 @@
    "ProxyPort": "",
    "Info": "Tlsws"
  },
- {
-      "Name": "❤️CLARO SERVIDOR 01🟢",
-      "FLAG": "claro",
-      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "icanhazip.com",
-      "TlsIP": "icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-        {
-      "Name": "❤️CLARO SERVIDOR 02🟢",
-      "FLAG": "claro",
-      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: top.paulovpsrj.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "api.new.livestream.com",
-      "TlsIP": "api.new.livestream.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-     {
-      "Name": "❤️CLARO SERVIDOR 01🟢 ",
-      "TYPE": "premium",
-      "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "No.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-        {
-      "Name": "❤️CLARO SERVIDOR  02🟢",
-      "FLAG": "claro",
-      "Payload": "GET wss://replica.descomplica.com HTTP/1.1[crlf]Host: top.paulovpsrj.xyz[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "replica.descomplica.com",
-      "TlsIP": "replica.descomplica.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
     {
       "Name": "❤️CLARO SSL 01❤️",
       "FLAG": "claro",
       "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "❤️CLARO SSL 02❤️",
-      "FLAG": "claro",
-      "Payload": "",
       "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "❤️CLARO SSL 03❤️",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "❤️CLARO SSL 04❤️",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
