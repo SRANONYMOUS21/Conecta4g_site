@@ -1,5 +1,5 @@
 {
-"Version": "2.0.7",
+"Version": "2.0.8",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -98,26 +98,36 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
    },
-        {
-      "Name": "🎮VIVO SERVIDOR 01🎮",
+     {
+      "Name": "💜VIVO GAME🛸",
       "FLAG": "vivo",
-      "Payload": "GET ws://backoffice-equipamentos01.vivo.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "backoffice-equipamentos01.vivo.com.br",
-      "TlsIP": "backoffice-equipamentos01.vivo.com.br",
+      "Payload": "GET wss://support.pokemon.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "support.pokemon.com",
+      "TlsIP": "172.64.130.2",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-       {
-      "Name": "🎮VIVO SERVIDOR 02🎮",
+   },
+    {
+      "Name": "💜VIVO NETFLIX",
       "FLAG": "vivo",
-      "Payload": "GET ws://backoffice-equipamentos01.vivo.com.br HTTP/1.1\nHost: top.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "backoffice-equipamentos01.vivo.com.br",
-      "TlsIP": "backoffice-equipamentos01.vivo.com.br",
+      "Payload": "GET wss://support.uptodown.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "support.uptodown.com",
+      "TlsIP": "162.159.136.63",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
+   },
+      {
+      "Name": "💜VIVO NEXT",
+      "FLAG": "vivo",
+      "Payload": "GET wss://help.pornhub.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "help.pornhub.com",
+      "TlsIP": "162.159.135.63",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
      {
       "Name": "💜VIVO TLS 01💜",
       "FLAG": "vivo",
@@ -138,46 +148,36 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-   {
-      "Name": "💙TIM SERVIDOR 01💙",
+     {
+      "Name": "💙TIM SPEED🚀",
       "FLAG": "tim",
-      "Payload": "GET ws://image.mail.c6bank.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-     "SNI": "image.mail.c6bank.com.br",
-      "TlsIP": "image.mail.c6bank.com.br",
+      "Payload": "GET wss://empresas.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "empresas.alura.com.br",
+      "TlsIP": "empresas.alura.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-      {
-      "Name": "💙TIM SERVIDOR 02💙",
-      "FLAG": "tim",
-      "Payload": "GET ws://status.emartim.com.br HTTP/1.1\nHost: top.paulovpsrj.xyz\nUpgrade: ws\n\n",
-     "SNI": "status.emartim.com.br",
-      "TlsIP": "status.emartim.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "🎮TIM SERVIDOR 01🎮",
+      "Name": "💙TIM GAME🛸",
       "FLAG": "tim",
-      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "bobcontents.bennuapp.com.br",
-      "TlsIP": "bobcontents.bennuapp.com.br",
+      "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "blog.alura.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-      {
-      "Name": "🎮TIM SERVIDOR 02🎮",
+   },
+    {
+      "Name": "🖤TIM BETA🖤",
       "FLAG": "tim",
-      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: top.paulovpsrj.xyz\nUpgrade: ws\n\n",
-      "SNI": "bobcontents.bennuapp.com.br",
-      "TlsIP": "bobcontents.bennuapp.com.br",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },  
+   },  
     {
       "Name": "💙TIM TLS 01💙",
       "FLAG": "tim",
