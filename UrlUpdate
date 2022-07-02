@@ -1,5 +1,5 @@
 {
-"Version": "2.1.6",
+"Version": "2.1.7",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -67,7 +67,17 @@
     }
   ],
   "Networks": [
-     {
+    {
+      "Name": "💜VIVO TODAS REGIÃO💜",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "vivo360.vivo.com.br",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "443",
+      "Info": "Proxy"
+    },
+  {
       "Name": "💜VIVO ZAP💜",
       "FLAG": "vivo",
       "Payload": "GET wss://web.vivo.com.br HTTP/1.1[lf]Host: lm.paulovpsrj.xyz[crlf]Upgrade: websocket[crlf][crlf]",
