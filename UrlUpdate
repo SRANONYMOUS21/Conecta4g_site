@@ -127,11 +127,11 @@
 "Info": "Proxy" 
  },
     {
-       "Name": "💜VIVO ELECTIONS💜",
+       "Name": "💜VIVO CINEMARK💜",
       "FLAG": "vivo",
-      "Payload": "GET wss://uvp.elections.govt.nz HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "uvp.elections.govt.nz",
-      "TlsIP": "104.24.25.34",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "sac.cinemark.com.br",
+      "TlsIP": "104.16.51.111",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
