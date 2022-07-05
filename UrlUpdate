@@ -1,5 +1,5 @@
 {
-"Version": "2.2.3",
+"Version": "2.2.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -72,19 +72,19 @@
       "Payload": "GET wss://cname.vivo.com.br/ HTTP/1.1[lf]Host: lm.paulovpsrj.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cname.vivo.com.br",
       "TlsIP": "cname.vivo.com.br",
-      "ProxyIP": "162.159.135.63",
-      "ProxyPort": "443",
-      "Info": "Proxy"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
    {
-      "Name": "💜VIVO EASY MOBI💜",
+      "Name": "💜VIVO EASY💜",
       "FLAG": "vivo",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.67.165.43",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
      {
       "Name": "💜VIVO NOVO 01💜",
