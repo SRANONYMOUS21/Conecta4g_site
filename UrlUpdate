@@ -77,7 +77,7 @@
       "Info": "Proxy"
     },
    {
-      "Name": "💜VIVO EASY MOBI💜",
+      "Name": "💜VIVO EASY💜",
       "FLAG": "vivo",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "",
