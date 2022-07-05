@@ -1,5 +1,5 @@
 {
-"Version": "2.2.2",
+"Version": "2.2.3",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -56,11 +56,31 @@
     }
   ],
   "Networks": [
+{
+      "Name": "💜VIVO VIGIA💜",
+      "FLAG": "vivo",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "💜VIVO PROXY 01💜",
+      "FLAG": "vivo",
+      "Payload": "GET wss://cname.vivo.com.br/ HTTP/1.1[lf]Host: lm.paulovpsrj.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "cname.vivo.com.br",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "443",
+      "Info": "Proxy"
+    },
    {
       "Name": "💜VIVO PORTAL💜",
       "FLAG": "vivo",
-      "Payload": "GET sni://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]X-Forward-Host: lm.paulovpsrj.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "portaldeassinaturas.vivo.com.br",
+      "Payload": "GET sni://mobilidade.cloud.caixa.com.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]X-Forward-Host: lm.paulovpsrj.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.com.br",
       "TlsIP": "104.24.10.16",
       "ProxyIP": "",
       "ProxyPort": "",
