@@ -77,13 +77,13 @@
       "Info": "Proxy"
     },
    {
-      "Name": "💜VIVO EASY💜",
+      "Name": "💜VIVO EASY MOBI💜",
       "FLAG": "vivo",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: lm.paulovpsrj.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "443",
+      "ProxyIP": "172.67.165.43",
+      "ProxyPort": "",
       "Info": "Proxy"
     },
      {
