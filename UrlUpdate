@@ -1,5 +1,5 @@
 {
-"Version": "2.2.7",
+"Version": "2.2.8",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -66,6 +66,16 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    {
+      "Name": "💜VIVO WEB💜",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vpoweb.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "vpoweb.vivo.com.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
      {
       "Name": "💜VIVO PROXY 01💜",
       "FLAG": "vivo",
@@ -286,53 +296,7 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
-  {
-  "Name": "🟣VIVO 1 CLOUDFRONT💜",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d10bxx0nsdwrqu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "live.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },{
-  "Name": "🟣VIVO 2 CLOUDFRONT💜",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d10bxx0nsdwrqu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },{
-  "Name": "🟣VIVO 3 CLOUDFRONT💜",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d10bxx0nsdwrqu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "planosvivointernet.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },{
-  "Name": "🟣VIVO 4 CLOUDFRONT💜",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d10bxx0nsdwrqu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "www.assinenet.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },{
-  "Name": "🟣VIVO 5 CLOUDFRONT💜",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d10bxx0nsdwrqu.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "accounts.descomplica.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-        {
+   {
       "Name": "🚀TIM VELOZ🚀",
       "FLAG": "tim",
       "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: lm.paulovpsrj.xyz\nUpgrade: ws\n\n",
@@ -552,16 +516,6 @@
    "ProxyPort": "80",
    "Info": "proxy"
   },
-  {
-   "Name": "🧡OI HBO GO 02🧡",
-   "FLAG": "oi",
-   "Payload": "GET \/ HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "www.hbogo.com.br",
-   "TlsIP": "www.hbogo.com.br",
-   "ProxyIP": "www.hbogo.com.br",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  }, 
   {
    "Name": "OI HBOGO 01🧡",
    "FLAG": "oi",
