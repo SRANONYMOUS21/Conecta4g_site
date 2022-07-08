@@ -1,5 +1,5 @@
 {
-"Version": "2.3.0",
+"Version": "2.3.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -76,6 +76,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+    {
+"Name": "💜VIVO DDD 91💜",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "172.67.165.43",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
 {
       "Name": "💜VIVO VIGIA💜",
       "FLAG": "vivo",
