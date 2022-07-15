@@ -1,5 +1,5 @@
 {
-"Version": "2.3.6",
+"Version": "2.3.7",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -478,11 +478,11 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵TIM [03]",
+      "Name": "╰◕╰🌊TIM BLACK🌊◕╰◕ ",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.4.175",
+      "Payload": "GET wss://api-tim.oston.io  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "api-tim.oston.io",
+      "TlsIP": "api-tim.oston.io",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
