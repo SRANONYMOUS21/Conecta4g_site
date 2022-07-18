@@ -1,5 +1,5 @@
 {
-"Version": "2.3.7",
+"Version": "2.3.8",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -67,6 +67,16 @@
     }
   ],
   "Networks": [
+ {
+      "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 𝟎𝟏 ━─━ 𝐎𝐍 🟢 📡",
+      "FLAG": "vivo",
+      "Payload": "HEAD ssl://continueconectado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf]GET wss://continueconectado.vivo.com.br/ HTTP/1.1\r\nHost: [app_host][crlf]Upgrade: Websocket\r\nConnection: Keep-Alive\r\n\r\n",
+      "SNI": "continueconectado.vivo.com.br",
+      "TlsIP": "continueconectado.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
   {
       "Name": "💜VIVO TODAS REGIAO 01💜",
       "FLAG": "vivo.png",
@@ -357,16 +367,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-   {
-     "Name": "💜VIVO FAMILIA 02💜",
-      "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
 {
    "Name": "💜VIVO AL-PE-AM-PA-RN-PB-CE-ES 4 DDDS INICIO 8 E 9, 27,28💜",
       "FLAG": "vivo",
@@ -468,16 +468,6 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵TIM [02]",
-      "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
       "Name": "╰◕╰🌊TIM BLACK🌊◕╰◕ ",
       "FLAG": "tim",
       "Payload": "GET wss://api-tim.oston.io  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -507,16 +497,16 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   }, 
-  {
-   "Name": "❤️CLARO KALTURA 03❤️",
-   "FLAG": "claro",
-   "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
-   "SNI": "go.kaltura.com",
-   "TlsIP": "go.kaltura.com",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },
+   {
+      "Name": "╰◕╰❤️CLARO ON REGIÃO❤️◕╰◕",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
     {
       "Name": "❤️CLARO SLOW🐌",
    "FLAG": "claro",
