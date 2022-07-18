@@ -88,7 +88,7 @@
       "Info": "Tlsws"
     },
 {
-"Name":╰┈[☞>📱𝐕𝐈𝐕𝐎 SP ━ 𝐎𝐍 🟢 📡 ",
+"Name":"╰┈[☞>📱𝐕𝐈𝐕𝐎 SP ━ 𝐎𝐍 🟢 📡 ",
 "FLAG": "vivo",
 "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
 "SNI": "",
