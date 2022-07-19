@@ -1,5 +1,5 @@
 {
-"Version": "2.4.0",
+"Version": "2.4.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -68,7 +68,7 @@
   ],
   "Networks": [
   {
-      "Name": "💜VIVO TODAS REGIAO 01💜",
+      "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 REGIÃO🌏━ 𝐎𝐍 🟢",
       "FLAG": "vivo.png",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -97,8 +97,18 @@
 "ProxyPort": "80",
 "Info": "Proxy"
 },
+  {
+      "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 MODO ✈️ ━ 𝐎𝐍 🟢",
+      "FLAG": "vivo",
+      "Payload": "GET wss://celular.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+       },
  {
-   "Name": "💜VIVO NOVA ERA💜",
+   "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 NOVA━ ERA 🟢 📡",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -108,7 +118,7 @@
       "Info": "Tlsws"
   },
    {
- "Name": "💜TESTE BRUTO💜",
+ "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 BRUTO━ 𝐎𝐍 🟢 📡",
       "FLAG": "vivo",
       "Payload": "GET wss://www.anotheracronym.org/ HTTP/1.1\r\nHost: [app_host][crlf]Upgrade: Websocket\r\nConnection: Keep-Alive\r\n\r\n",
       "SNI": "www.anotheracronym.org",
@@ -118,10 +128,10 @@
       "Info": "Tlsws"
     },
  {
- "Name": "🟣VIVO ALGUNS DDD",
+ "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 DIGEVERSE━ 𝐎𝐍 🟢",
       "FLAG": "vivo",
       "Payload": "GET wss://digeverse.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: bode[crlf][crlf]",
-      "SNI": "continueconectado.vivo.com.br",
+      "SNI": "digeverse.com",
       "TlsIP": "104.21.11.51",
       "ProxyIP": "",
       "ProxyPort": "443",
