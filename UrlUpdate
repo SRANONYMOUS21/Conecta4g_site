@@ -390,7 +390,7 @@
   {
 "Name": "╰[☞>🍒𝐕𝐈𝐕𝐎 TURBO🍒━ 𝐎𝐍🟢",
 "FLAG": "vivo",
-"Payload": "GET wss://tvduck.com/ HTTP/1.1[crlf]Host: TEUSHOST[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+"Payload": "GET wss://tvduck.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
 "SNI": "tvduck.com",
 "TlsIP": "tvduck.com",
 "ProxyIP": "",
