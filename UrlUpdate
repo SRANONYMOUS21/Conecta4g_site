@@ -1,5 +1,5 @@
 {
-"Version": "2.4.4",
+"Version": "2.4.5",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -397,6 +397,7 @@
 "ProxyPort": "443",
 "Info": "Tlsws"
   },
+  {
    "Name": "💜VIVO BENEFICIOS💜",
    "FLAG": "vivo",
    "Payload": "GET wss://beneficios.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
