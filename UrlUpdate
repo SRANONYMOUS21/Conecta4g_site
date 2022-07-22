@@ -1,5 +1,5 @@
 {
-"Version": "2.4.5",
+"Version": "2.4.6",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -318,11 +318,11 @@
       "Info": "Tlsws"
     },
     {
-       "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 NOVO🎉━ 𝐎𝐍 🟢",
+       "Name": "╰[☞>🍕𝐕𝐈𝐕𝐎 DDD 62🍕━ 𝐎𝐍 🟢",
        "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "172.67.165.43",
+      "Payload": "GET wss://rapehun.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "rapehun.com",
+      "TlsIP": "rapehun.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -367,16 +367,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-  {
-   "Name": "💜VIVO FAMILIA 01💜",
-   "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
 {
    "Name": "💜VIVO AL-PE-AM-PA-RN-PB-CE-ES 4 DDDS INICIO 8 E 9, 27,28💜",
       "FLAG": "vivo",
@@ -400,8 +390,8 @@
   {
    "Name": "💜VIVO BENEFICIOS💜",
    "FLAG": "vivo",
-   "Payload": "GET wss://beneficios.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-   "SNI": "beneficios.vivo.com.br",
+   "Payload": "PUT  wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: lm.paulovpsrj.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+   "SNI": "gedoc.vivo.com.br",
    "TlsIP": "172.67.165.43",
    "ProxyIP": "",
    "ProxyPort": "443",
@@ -493,16 +483,6 @@
    "Payload": "GET sni://go.kaltura.com HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Upgrade[crlf][crlf]",
    "SNI": "go.kaltura.com",
    "TlsIP": "go.kaltura.com",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  }, 
-  {
-   "Name": "❤️CLARO KALTURA 02❤️",
-   "FLAG": "claro",
-   "Payload": "GET wss://connect.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
-   "SNI": "connect.kaltura.com",
-   "TlsIP": "connect.kaltura.com",
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
