@@ -100,7 +100,7 @@
   {
       "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 MODO ✈️ ━ 𝐎𝐍 🟢",
       "FLAG": "vivo",
-      "Payload": PROPPATCH wss://agiliza.telefonica.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "agiliza.telefonica.com.br",
       "TlsIP": "104.21.11.51",
       "ProxyIP": "",
