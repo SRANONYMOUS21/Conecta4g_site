@@ -1,5 +1,5 @@
 {
-"Version": "2.4.6",
+"Version": "2.4.7",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -100,10 +100,10 @@
   {
       "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 MODO ✈️ ━ 𝐎𝐍 🟢",
       "FLAG": "vivo",
-      "Payload": "GET wss://celular.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "104.21.11.51",
-      "ProxyIP": "",
+      "Payload": PROPPATCH wss://agiliza.telefonica.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "agiliza.telefonica.com.br",
+      "TlsIP": "agiliza.telefonica.com.br",
+      "ProxyIP": "104.21.11.51",
       "ProxyPort": "443",
       "Info": "Tlsws"
        },
