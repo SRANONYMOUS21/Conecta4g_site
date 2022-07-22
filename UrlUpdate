@@ -102,8 +102,8 @@
       "FLAG": "vivo",
       "Payload": PROPPATCH wss://agiliza.telefonica.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "agiliza.telefonica.com.br",
-      "TlsIP": "agiliza.telefonica.com.br",
-      "ProxyIP": "104.21.11.51",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
        },
