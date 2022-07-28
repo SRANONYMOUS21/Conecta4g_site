@@ -312,7 +312,7 @@
    "FLAG": "vivo",
       "Payload": "GET wss://b13pkbl191.map.azionedge.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "b13pkbl191.map.azionedge.net",
-      "TlsIP": "",
+      "TlsIP": "b13pkbl191.map.azionedge.net",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
