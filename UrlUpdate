@@ -1,5 +1,5 @@
 {
-"Version": "3.0.5",
+"Version": "3.0.6",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -397,6 +397,16 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
+    {
+      "Name": "╰◕╰⚡TIM MANIA⚡◕╰◕",
+      "FLAG": "tim",
+      "Payload": "GET wss://api-tim.oston.io  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "api-tim.oston.io",
+      "TlsIP": "api-tim.oston.io",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
       {
       "Name": "╰◕╰🌊TIM BLACK🌊◕╰◕ ",
       "FLAG": "tim",
