@@ -80,10 +80,10 @@
       {
    "Name": "╰◕╰🍄VIVO GLOBAL🍄◕╰◕",
    "FLAG": "vivo",
-      "Payload": "GET wss://b13pkbl191.map.azionedge.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://fly218.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "b13pkbl191.map.azionedge.net",
+      "ProxyIP": "fly218.com",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
