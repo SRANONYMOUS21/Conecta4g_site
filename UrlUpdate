@@ -1,5 +1,5 @@
 {
-"Version": "3.2.0",
+"Version": "3.1.2",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -107,6 +107,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    {
 "Nome": "╰┈[☞>📱𝐕𝐈𝐕𝐎 XP ━ 𝐎𝐍 🟢 📡",
       "BANDEIRA": "vivo",
       "Payload": "GET wss://equipamentos01.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep- Vivo[crlf][crlf]",
@@ -115,6 +116,7 @@
       "IP de Proxy": "",
       "ProxyPort": "443",
       "Informações": "Tlsws"
+     },   
 {
 "Name": "╰◕╰🚒VIVO MINAS🌏 31,32,35,75,21,51,55,22,16,88,66,79◕╰◕",
       "FLAG": "vivo",
