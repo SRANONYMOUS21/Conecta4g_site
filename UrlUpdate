@@ -80,9 +80,9 @@
       {
    "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 EASY 2━ 𝐎𝐍 🟢◕╰◕",
    "FLAG": "vivo",
-      "Payload": "PROPPATCH wss://www.vivoemdia.vivo.com.br/ HTTP/1.200 [lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET wss://www.vivoemdia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
+      "TlsIP": "www.vivoemdia.vivo.com.br",
       "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
       "Info": "Proxy"
