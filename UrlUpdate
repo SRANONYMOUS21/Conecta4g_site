@@ -1,5 +1,5 @@
 {
-"Version": "3.1.2",
+"Version": "3.1.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -78,12 +78,12 @@
       "Info": "Proxy"
     },
       {
-   "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 EASY 2━ 𝐎𝐍 🟢◕╰◕",
+   "Name": "╰◕╰🍄VIVO GLOBAL🍄◕╰◕",
    "FLAG": "vivo",
-      "Payload": "GET wss://www.vivoemdia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://fly218.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "www.vivoemdia.vivo.com.br",
-      "ProxyIP": "104.18.6.80",
+      "TlsIP": "",
+      "ProxyIP": "fly218.com",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
