@@ -80,7 +80,7 @@
     {
    "Name": "╰[☞>⚡𝐕𝐈𝐕𝐎 PORTAL⚡ON🌎",
    "FLAG": VIVO",
-   "Payload": "GET wss://www.anotheracronym.org/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "Payload": "GET wss://unpkg.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
    "SNI": "unpkg.com",
    "TlsIP": "unpkg.com",
    "ProxyIP": "",
