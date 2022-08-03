@@ -1,5 +1,5 @@
 {
-"Version": "3.1.8",
+"Version": "3.1.9",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/SRANONYMOUS21/Conecta4g_site/main/UrlSms",
@@ -137,26 +137,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
        },
-   {
- "Name": "╰┈[☞>📱𝐕𝐈𝐕𝐎 BRUTO━ 𝐎𝐍 🟢 📡",
-      "FLAG": "vivo",
-      "Payload": "GET wss://www.anotheracronym.org/ HTTP/1.1\r\nHost: [app_host][crlf]Upgrade: Websocket\r\nConnection: Keep-Alive\r\n\r\n",
-      "SNI": "www.anotheracronym.org",
-      "TlsIP": "www.anotheracronym.org",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
- {
- "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 DIGEVERSE━ 𝐎𝐍 🟢",
-      "FLAG": "vivo",
-      "Payload": "GET wss://digeverse.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: bode[crlf][crlf]",
-      "SNI": "digeverse.com",
-      "TlsIP": "104.21.11.51",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
      {
       "Name": "╰[☞>📱𝐕𝐈𝐕𝐎 PLANO━ 𝐎𝐍⚪",
       "FLAG": "vivo",
@@ -273,6 +253,16 @@
       "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "blog.alura.com.br",
       "TlsIP": "blog.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+     {
+      "Name": "╰◕╰🔥TIM VIRTUAL🔥◕╰◕",
+      "FLAG": "tim",
+      "Payload": "GET wss://m.timbancavirtual.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
